@@ -1,0 +1,749 @@
+raw,imdb_id,original_title
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Challenging""
+}
+```",tt10324144,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt10443846,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Challenging""
+}
+```",tt10816510,
+"```json
+{
+  ""hindu_muslim"": ""Exclusionary"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt11007050,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt11046300,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1194236,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1437367,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1455816,
+"```json
+{
+  ""hindu_muslim"": ""Exclusionary"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt1535467,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1573482,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt1578261,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1606162,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1607607,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Challenging""
+}
+```",tt1629376,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1694542,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1728239,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt1736552,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt1784589,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1826051,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Challenging""
+}
+```",tt1848771,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1877691,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt1954598,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Challenging""
+}
+```",tt2063745,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Challenging""
+}
+```",tt2073070,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2094854,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2106537,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2140465,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2140465,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt2158633,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2171454,
+"Based on the text provided, here is the analysis:
+
+The provided text consists of HTML code and a very generic movie description. The description (""An uncompromising film on true love from the legendary and unforgettable director Yash Chopra which is fascinatingly distinctive and contemporary."") offers no specific details about the plot, characters, or social context. Therefore, it is not possible to make a definitive judgment on the specific themes requested. The coding reflects the absence of information in the text.
+
+```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2176013,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2188811,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2188893,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2191641,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Challenging""
+}
+```",tt2196638,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2246595,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2255934,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt2292625,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Reinforcing""
+}
+```",tt2321492,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2341766,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2359810,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2429640,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt2429930,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2461132,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2551378,
+"```json
+{
+  ""hindu_muslim"": ""Exclusionary"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt2615584,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2622130,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt2963974,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Challenging""
+}
+```",tt2976176,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt2979920,
+"```json
+{
+  ""hindu_muslim"": ""Exclusionary"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt3001638,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt3021244,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3142688,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3302962,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3322420,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3334348,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt3531604,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3565354,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3636776,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt3640942,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt3679000,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt3796006,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3854246,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt3863552,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt3948240,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4354740,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4358344,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4467262,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4635372,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4654760,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4659548,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4857886,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt4979110,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5052972,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5325684,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5472374,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5474042,
+"```json
+{
+  ""hindu_muslim"": ""Inclusive"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5542802,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5638474,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5909308,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt5946128,
+"```json
+{
+  ""hindu_muslim"": ""Exclusionary"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt6264938,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt6299040,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt6334874,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt6395306,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt6537508,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Positive"",
+  ""caste"": ""Neutral""
+}
+```",tt7549484,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Progressive"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt7743400,
+"```json
+{
+  ""hindu_muslim"": ""Exclusionary"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Negative"",
+  ""caste"": ""Neutral""
+}
+```",tt7777196,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt8458202,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt8983180,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Neutral"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt9239772,
+"```json
+{
+  ""hindu_muslim"": ""Neutral"",
+  ""gender"": ""Conservative"",
+  ""nationalism"": ""Neutral"",
+  ""caste"": ""Neutral""
+}
+```",tt9248940,
