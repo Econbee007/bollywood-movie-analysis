@@ -1,18 +1,17 @@
 # Set working directory to project root
-setwd("D:/RA assessment/bollywood-movie-analysis")
+setwd(dirname(dirname(normalizePath("src/visualisation.R"))))
 
 # Load required libraries
 library(ggplot2)
 library(dplyr)
 library(tidyr)
 library(readr)
-library(magrittr)  # for %>% and pipe functionality
 
-# Create output directory if it doesn't exist
+# Load cleaned thematic data
+df <- read_csv("data/thematic_coding_clean.csv")
+
+# Create output directory if not exists
 if (!dir.exists("data")) dir.create("data")
-
-# Load thematic coding data
-df <- read_csv("data/thematic_coding.csv")
 
 # === Plot 1: Time series of theme frequencies by year ===
 plot1 <- df %>%
@@ -48,5 +47,4 @@ plot3 <- df %>%
 
 ggsave("data/theme_sentiment_over_time.png", plot = plot3, width = 8, height = 5)
 
-cat("✅ Plots saved in /data/\n")
-
+cat("✅ All plots saved successfully in the /data/ folder.\n")
