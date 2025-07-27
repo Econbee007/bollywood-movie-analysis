@@ -1,0 +1,369 @@
+imdb_id,original_title,year,theme,sentiment_category
+tt10324144,Article 15,2019.0,hindu_muslim,Neutral
+tt10443846,Yeh Saali Aashiqui,2019.0,hindu_muslim,Inclusive
+tt10816510,P Se Pyaar F Se Faraar,2019.0,hindu_muslim,Neutral
+tt11007050,#Yaaram,2019.0,hindu_muslim,Exclusionary
+tt11046300,Ujda Chaman,2019.0,hindu_muslim,Neutral
+tt1194236,Get Educated: Paathshaala,2010.0,hindu_muslim,Neutral
+tt1437367,Thanks Maa,2009.0,hindu_muslim,Neutral
+tt1455816,Prince,2010.0,hindu_muslim,Neutral
+tt1535467,Patiala House,2011.0,hindu_muslim,Exclusionary
+tt1573482,Striker,2010.0,hindu_muslim,Neutral
+tt1578261,Break Ke Baad,2010.0,hindu_muslim,Inclusive
+tt1606162,Aakhari Decision,2010.0,hindu_muslim,Neutral
+tt1607607,Mittal v/s Mittal,2010.0,hindu_muslim,Neutral
+tt1629376,7 Khoon Maaf,2011.0,hindu_muslim,Neutral
+tt1694542,Tanu Weds Manu,2011.0,hindu_muslim,Neutral
+tt1728239,Double Dhamaal,2011.0,hindu_muslim,Neutral
+tt1736552,Breakaway,2011.0,hindu_muslim,Neutral
+tt1784589,Players,2012.0,hindu_muslim,Neutral
+tt1826051,Yeh Dooriyan,2011.0,hindu_muslim,Neutral
+tt1848771,Aarakshan,2011.0,hindu_muslim,Neutral
+tt1877691,Love Breakups Zindagi,2011.0,hindu_muslim,Neutral
+tt1954598,Ladies vs. Ricky Bahl,2011.0,hindu_muslim,Neutral
+tt2063745,Kya Dilli Kya Lahore,2014.0,hindu_muslim,Inclusive
+tt2073070,Saheb Biwi Aur Gangster,2011.0,hindu_muslim,Neutral
+tt2094854,Inkaar,2013.0,hindu_muslim,Neutral
+tt2106537,Matru ki Bijlee ka Mandola,2013.0,hindu_muslim,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,hindu_muslim,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,hindu_muslim,Neutral
+tt2158633,Married 2 America,2012.0,hindu_muslim,Neutral
+tt2171454,Zila Ghaziabad,2013.0,hindu_muslim,Neutral
+tt2188811,Luv U Soniyo,2012.0,hindu_muslim,Neutral
+tt2188893,Staying Alive,2012.0,hindu_muslim,Neutral
+tt2191641,Chaar Din Ki Chandni,2012.0,hindu_muslim,Neutral
+tt2196638,Gulabi Gang,2012.0,hindu_muslim,Inclusive
+tt2246595,Blood Money,2012.0,hindu_muslim,Neutral
+tt2255934,Aiyyaa,2012.0,hindu_muslim,Neutral
+tt2292625,Chakravyuh,2012.0,hindu_muslim,Neutral
+tt2321492,Krishna Aur Kans,2012.0,hindu_muslim,Neutral
+tt2341766,Nautanki Saala!,2013.0,hindu_muslim,Neutral
+tt2359810,Raanjhanaa,2013.0,hindu_muslim,Inclusive
+tt2429640,Murder 3,2013.0,hindu_muslim,Neutral
+tt2429930,Khwaabb,2014.0,hindu_muslim,Neutral
+tt2461132,Happy New Year,2014.0,hindu_muslim,Neutral
+tt2551378,Bullett Raja,2013.0,hindu_muslim,Neutral
+tt2615584,Phata Poster Nikhla Hero,2013.0,hindu_muslim,Exclusionary
+tt2622130,Jayantabhai Ki Luv Story,2013.0,hindu_muslim,Neutral
+tt2963974,M Cream,2014.0,hindu_muslim,Inclusive
+tt2976176,Lakshmi,2014.0,hindu_muslim,Neutral
+tt2979920,Bombay Velvet,2015.0,hindu_muslim,Inclusive
+tt3001638,Mary Kom,2014.0,hindu_muslim,Exclusionary
+tt3021244,Chaarfutiya Chhokare,2014.0,hindu_muslim,Neutral
+tt3142688,Finding Fanny,2014.0,hindu_muslim,Neutral
+tt3302962,Shaadi Ke Side Effects,2014.0,hindu_muslim,Neutral
+tt3322420,Queen,2013.0,hindu_muslim,Inclusive
+tt3334348,Heartless,2014.0,hindu_muslim,Neutral
+tt3531604,Gang of Ghosts,2014.0,hindu_muslim,Neutral
+tt3565354,Karar: The Deal,2014.0,hindu_muslim,Neutral
+tt3636776,Samrat & Co.,2014.0,hindu_muslim,Neutral
+tt3640942,Koyelaanchal,2014.0,hindu_muslim,Neutral
+tt3679000,Any Body Can Dance 2,2015.0,hindu_muslim,Neutral
+tt3796006,ROAR: Tigers of the Sundarbans,2014.0,hindu_muslim,Neutral
+tt3854246,Bazaar E Husn,2014.0,hindu_muslim,Neutral
+tt3863552,Bajrangi Bhaijaan,2015.0,hindu_muslim,Inclusive
+tt3948240,Second Hand Husband,2015.0,hindu_muslim,Neutral
+tt4354740,Dharam Sankat Mein,2015.0,hindu_muslim,Neutral
+tt4358344,Rough Book,2016.0,hindu_muslim,Neutral
+tt4467262,Katti Batti,2015.0,hindu_muslim,Neutral
+tt4635372,Masaan,2015.0,hindu_muslim,Inclusive
+tt4654760,Sabki Bajegi Band,2015.0,hindu_muslim,Neutral
+tt4659548,Rebellious Flower,2016.0,hindu_muslim,Neutral
+tt4857886,Do Lafzon Ki Kahani,2016.0,hindu_muslim,Inclusive
+tt4979110,Daas Dev,2018.0,hindu_muslim,Neutral
+tt5052972,Yaara Silly Silly,2015.0,hindu_muslim,Neutral
+tt5325684,Hate Story IV,2018.0,hindu_muslim,Neutral
+tt5472374,Meri Pyaari Bindu,2017.0,hindu_muslim,Neutral
+tt5474042,Half Girlfriend,2017.0,hindu_muslim,Neutral
+tt5542802,Raabta,2017.0,hindu_muslim,Inclusive
+tt5638474,Wajah Tum Ho,2016.0,hindu_muslim,Neutral
+tt5909308,Days of Tafree,2016.0,hindu_muslim,Neutral
+tt5946128,Dear Zindagi,2016.0,hindu_muslim,Neutral
+tt6264938,Kesari,2019.0,hindu_muslim,Exclusionary
+tt6299040,The Ghazi Attack,2017.0,hindu_muslim,Neutral
+tt6334874,Coffee with D,2017.0,hindu_muslim,Neutral
+tt6395306,Union Leader,2017.0,hindu_muslim,Neutral
+tt6537508,Behen Hogi Teri,2017.0,hindu_muslim,Neutral
+tt7549484,Firangi,2017.0,hindu_muslim,Neutral
+tt7743400,Jhalki,2019.0,hindu_muslim,Neutral
+tt7777196,Thackeray,2019.0,hindu_muslim,Exclusionary
+tt8458202,Pihu,2018.0,hindu_muslim,Neutral
+tt8983180,Made in China,2019.0,hindu_muslim,Neutral
+tt9239772,Setters,2019.0,hindu_muslim,Neutral
+tt9248940,Dream Girl,2019.0,hindu_muslim,Neutral
+tt10324144,Article 15,2019.0,gender,Progressive
+tt10443846,Yeh Saali Aashiqui,2019.0,gender,Neutral
+tt10816510,P Se Pyaar F Se Faraar,2019.0,gender,Progressive
+tt11007050,#Yaaram,2019.0,gender,Conservative
+tt11046300,Ujda Chaman,2019.0,gender,Conservative
+tt1194236,Get Educated: Paathshaala,2010.0,gender,Neutral
+tt1437367,Thanks Maa,2009.0,gender,Progressive
+tt1455816,Prince,2010.0,gender,Conservative
+tt1535467,Patiala House,2011.0,gender,Conservative
+tt1573482,Striker,2010.0,gender,Neutral
+tt1578261,Break Ke Baad,2010.0,gender,Progressive
+tt1606162,Aakhari Decision,2010.0,gender,Neutral
+tt1607607,Mittal v/s Mittal,2010.0,gender,Progressive
+tt1629376,7 Khoon Maaf,2011.0,gender,Progressive
+tt1694542,Tanu Weds Manu,2011.0,gender,Progressive
+tt1728239,Double Dhamaal,2011.0,gender,Conservative
+tt1736552,Breakaway,2011.0,gender,Neutral
+tt1784589,Players,2012.0,gender,Progressive
+tt1826051,Yeh Dooriyan,2011.0,gender,Progressive
+tt1848771,Aarakshan,2011.0,gender,Progressive
+tt1877691,Love Breakups Zindagi,2011.0,gender,Progressive
+tt1954598,Ladies vs. Ricky Bahl,2011.0,gender,Progressive
+tt2063745,Kya Dilli Kya Lahore,2014.0,gender,Neutral
+tt2073070,Saheb Biwi Aur Gangster,2011.0,gender,Conservative
+tt2094854,Inkaar,2013.0,gender,Progressive
+tt2106537,Matru ki Bijlee ka Mandola,2013.0,gender,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,gender,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,gender,Neutral
+tt2158633,Married 2 America,2012.0,gender,Conservative
+tt2171454,Zila Ghaziabad,2013.0,gender,Neutral
+tt2188811,Luv U Soniyo,2012.0,gender,Conservative
+tt2188893,Staying Alive,2012.0,gender,Neutral
+tt2191641,Chaar Din Ki Chandni,2012.0,gender,Neutral
+tt2196638,Gulabi Gang,2012.0,gender,Progressive
+tt2246595,Blood Money,2012.0,gender,Neutral
+tt2255934,Aiyyaa,2012.0,gender,Progressive
+tt2292625,Chakravyuh,2012.0,gender,Neutral
+tt2321492,Krishna Aur Kans,2012.0,gender,Conservative
+tt2341766,Nautanki Saala!,2013.0,gender,Neutral
+tt2359810,Raanjhanaa,2013.0,gender,Conservative
+tt2429640,Murder 3,2013.0,gender,Neutral
+tt2429930,Khwaabb,2014.0,gender,Progressive
+tt2461132,Happy New Year,2014.0,gender,Neutral
+tt2551378,Bullett Raja,2013.0,gender,Neutral
+tt2615584,Phata Poster Nikhla Hero,2013.0,gender,Progressive
+tt2622130,Jayantabhai Ki Luv Story,2013.0,gender,Neutral
+tt2963974,M Cream,2014.0,gender,Progressive
+tt2976176,Lakshmi,2014.0,gender,Conservative
+tt2979920,Bombay Velvet,2015.0,gender,Conservative
+tt3001638,Mary Kom,2014.0,gender,Progressive
+tt3021244,Chaarfutiya Chhokare,2014.0,gender,Progressive
+tt3142688,Finding Fanny,2014.0,gender,Conservative
+tt3302962,Shaadi Ke Side Effects,2014.0,gender,Neutral
+tt3322420,Queen,2013.0,gender,Progressive
+tt3334348,Heartless,2014.0,gender,Progressive
+tt3531604,Gang of Ghosts,2014.0,gender,Neutral
+tt3565354,Karar: The Deal,2014.0,gender,Conservative
+tt3636776,Samrat & Co.,2014.0,gender,Neutral
+tt3640942,Koyelaanchal,2014.0,gender,Neutral
+tt3679000,Any Body Can Dance 2,2015.0,gender,Progressive
+tt3796006,ROAR: Tigers of the Sundarbans,2014.0,gender,Progressive
+tt3854246,Bazaar E Husn,2014.0,gender,Progressive
+tt3863552,Bajrangi Bhaijaan,2015.0,gender,Conservative
+tt3948240,Second Hand Husband,2015.0,gender,Conservative
+tt4354740,Dharam Sankat Mein,2015.0,gender,Conservative
+tt4358344,Rough Book,2016.0,gender,Progressive
+tt4467262,Katti Batti,2015.0,gender,Progressive
+tt4635372,Masaan,2015.0,gender,Conservative
+tt4654760,Sabki Bajegi Band,2015.0,gender,Neutral
+tt4659548,Rebellious Flower,2016.0,gender,Neutral
+tt4857886,Do Lafzon Ki Kahani,2016.0,gender,Conservative
+tt4979110,Daas Dev,2018.0,gender,Neutral
+tt5052972,Yaara Silly Silly,2015.0,gender,Progressive
+tt5325684,Hate Story IV,2018.0,gender,Conservative
+tt5472374,Meri Pyaari Bindu,2017.0,gender,Neutral
+tt5474042,Half Girlfriend,2017.0,gender,Progressive
+tt5542802,Raabta,2017.0,gender,Neutral
+tt5638474,Wajah Tum Ho,2016.0,gender,Neutral
+tt5909308,Days of Tafree,2016.0,gender,Neutral
+tt5946128,Dear Zindagi,2016.0,gender,Progressive
+tt6264938,Kesari,2019.0,gender,Neutral
+tt6299040,The Ghazi Attack,2017.0,gender,Neutral
+tt6334874,Coffee with D,2017.0,gender,Conservative
+tt6395306,Union Leader,2017.0,gender,Neutral
+tt6537508,Behen Hogi Teri,2017.0,gender,Progressive
+tt7549484,Firangi,2017.0,gender,Conservative
+tt7743400,Jhalki,2019.0,gender,Progressive
+tt7777196,Thackeray,2019.0,gender,Neutral
+tt8458202,Pihu,2018.0,gender,Conservative
+tt8983180,Made in China,2019.0,gender,Conservative
+tt9239772,Setters,2019.0,gender,Neutral
+tt9248940,Dream Girl,2019.0,gender,Conservative
+tt10324144,Article 15,2019.0,nationalism,Positive
+tt10443846,Yeh Saali Aashiqui,2019.0,nationalism,Neutral
+tt10816510,P Se Pyaar F Se Faraar,2019.0,nationalism,Positive
+tt11007050,#Yaaram,2019.0,nationalism,Neutral
+tt11046300,Ujda Chaman,2019.0,nationalism,Neutral
+tt1194236,Get Educated: Paathshaala,2010.0,nationalism,Neutral
+tt1437367,Thanks Maa,2009.0,nationalism,Neutral
+tt1455816,Prince,2010.0,nationalism,Neutral
+tt1535467,Patiala House,2011.0,nationalism,Negative
+tt1573482,Striker,2010.0,nationalism,Neutral
+tt1578261,Break Ke Baad,2010.0,nationalism,Positive
+tt1606162,Aakhari Decision,2010.0,nationalism,Neutral
+tt1607607,Mittal v/s Mittal,2010.0,nationalism,Neutral
+tt1629376,7 Khoon Maaf,2011.0,nationalism,Neutral
+tt1694542,Tanu Weds Manu,2011.0,nationalism,Neutral
+tt1728239,Double Dhamaal,2011.0,nationalism,Neutral
+tt1736552,Breakaway,2011.0,nationalism,Positive
+tt1784589,Players,2012.0,nationalism,Negative
+tt1826051,Yeh Dooriyan,2011.0,nationalism,Neutral
+tt1848771,Aarakshan,2011.0,nationalism,Positive
+tt1877691,Love Breakups Zindagi,2011.0,nationalism,Neutral
+tt1954598,Ladies vs. Ricky Bahl,2011.0,nationalism,Neutral
+tt2063745,Kya Dilli Kya Lahore,2014.0,nationalism,Negative
+tt2073070,Saheb Biwi Aur Gangster,2011.0,nationalism,Neutral
+tt2094854,Inkaar,2013.0,nationalism,Neutral
+tt2106537,Matru ki Bijlee ka Mandola,2013.0,nationalism,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,nationalism,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,nationalism,Neutral
+tt2158633,Married 2 America,2012.0,nationalism,Positive
+tt2171454,Zila Ghaziabad,2013.0,nationalism,Neutral
+tt2188811,Luv U Soniyo,2012.0,nationalism,Neutral
+tt2188893,Staying Alive,2012.0,nationalism,Neutral
+tt2191641,Chaar Din Ki Chandni,2012.0,nationalism,Neutral
+tt2196638,Gulabi Gang,2012.0,nationalism,Neutral
+tt2246595,Blood Money,2012.0,nationalism,Neutral
+tt2255934,Aiyyaa,2012.0,nationalism,Neutral
+tt2292625,Chakravyuh,2012.0,nationalism,Negative
+tt2321492,Krishna Aur Kans,2012.0,nationalism,Neutral
+tt2341766,Nautanki Saala!,2013.0,nationalism,Neutral
+tt2359810,Raanjhanaa,2013.0,nationalism,Neutral
+tt2429640,Murder 3,2013.0,nationalism,Neutral
+tt2429930,Khwaabb,2014.0,nationalism,Negative
+tt2461132,Happy New Year,2014.0,nationalism,Neutral
+tt2551378,Bullett Raja,2013.0,nationalism,Neutral
+tt2615584,Phata Poster Nikhla Hero,2013.0,nationalism,Positive
+tt2622130,Jayantabhai Ki Luv Story,2013.0,nationalism,Neutral
+tt2963974,M Cream,2014.0,nationalism,Neutral
+tt2976176,Lakshmi,2014.0,nationalism,Neutral
+tt2979920,Bombay Velvet,2015.0,nationalism,Positive
+tt3001638,Mary Kom,2014.0,nationalism,Positive
+tt3021244,Chaarfutiya Chhokare,2014.0,nationalism,Negative
+tt3142688,Finding Fanny,2014.0,nationalism,Neutral
+tt3302962,Shaadi Ke Side Effects,2014.0,nationalism,Neutral
+tt3322420,Queen,2013.0,nationalism,Neutral
+tt3334348,Heartless,2014.0,nationalism,Neutral
+tt3531604,Gang of Ghosts,2014.0,nationalism,Negative
+tt3565354,Karar: The Deal,2014.0,nationalism,Neutral
+tt3636776,Samrat & Co.,2014.0,nationalism,Neutral
+tt3640942,Koyelaanchal,2014.0,nationalism,Negative
+tt3679000,Any Body Can Dance 2,2015.0,nationalism,Positive
+tt3796006,ROAR: Tigers of the Sundarbans,2014.0,nationalism,Positive
+tt3854246,Bazaar E Husn,2014.0,nationalism,Neutral
+tt3863552,Bajrangi Bhaijaan,2015.0,nationalism,Positive
+tt3948240,Second Hand Husband,2015.0,nationalism,Neutral
+tt4354740,Dharam Sankat Mein,2015.0,nationalism,Neutral
+tt4358344,Rough Book,2016.0,nationalism,Neutral
+tt4467262,Katti Batti,2015.0,nationalism,Neutral
+tt4635372,Masaan,2015.0,nationalism,Neutral
+tt4654760,Sabki Bajegi Band,2015.0,nationalism,Neutral
+tt4659548,Rebellious Flower,2016.0,nationalism,Neutral
+tt4857886,Do Lafzon Ki Kahani,2016.0,nationalism,Neutral
+tt4979110,Daas Dev,2018.0,nationalism,Neutral
+tt5052972,Yaara Silly Silly,2015.0,nationalism,Neutral
+tt5325684,Hate Story IV,2018.0,nationalism,Neutral
+tt5472374,Meri Pyaari Bindu,2017.0,nationalism,Neutral
+tt5474042,Half Girlfriend,2017.0,nationalism,Neutral
+tt5542802,Raabta,2017.0,nationalism,Neutral
+tt5638474,Wajah Tum Ho,2016.0,nationalism,Neutral
+tt5909308,Days of Tafree,2016.0,nationalism,Neutral
+tt5946128,Dear Zindagi,2016.0,nationalism,Neutral
+tt6264938,Kesari,2019.0,nationalism,Positive
+tt6299040,The Ghazi Attack,2017.0,nationalism,Positive
+tt6334874,Coffee with D,2017.0,nationalism,Negative
+tt6395306,Union Leader,2017.0,nationalism,Neutral
+tt6537508,Behen Hogi Teri,2017.0,nationalism,Neutral
+tt7549484,Firangi,2017.0,nationalism,Positive
+tt7743400,Jhalki,2019.0,nationalism,Neutral
+tt7777196,Thackeray,2019.0,nationalism,Negative
+tt8458202,Pihu,2018.0,nationalism,Neutral
+tt8983180,Made in China,2019.0,nationalism,Neutral
+tt9239772,Setters,2019.0,nationalism,Neutral
+tt9248940,Dream Girl,2019.0,nationalism,Neutral
+tt10324144,Article 15,2019.0,caste,Challenging
+tt10443846,Yeh Saali Aashiqui,2019.0,caste,Neutral
+tt10816510,P Se Pyaar F Se Faraar,2019.0,caste,Challenging
+tt11007050,#Yaaram,2019.0,caste,Neutral
+tt11046300,Ujda Chaman,2019.0,caste,Neutral
+tt1194236,Get Educated: Paathshaala,2010.0,caste,Neutral
+tt1437367,Thanks Maa,2009.0,caste,Neutral
+tt1455816,Prince,2010.0,caste,Neutral
+tt1535467,Patiala House,2011.0,caste,Neutral
+tt1573482,Striker,2010.0,caste,Neutral
+tt1578261,Break Ke Baad,2010.0,caste,Neutral
+tt1606162,Aakhari Decision,2010.0,caste,Neutral
+tt1607607,Mittal v/s Mittal,2010.0,caste,Neutral
+tt1629376,7 Khoon Maaf,2011.0,caste,Challenging
+tt1694542,Tanu Weds Manu,2011.0,caste,Neutral
+tt1728239,Double Dhamaal,2011.0,caste,Neutral
+tt1736552,Breakaway,2011.0,caste,Neutral
+tt1784589,Players,2012.0,caste,Neutral
+tt1826051,Yeh Dooriyan,2011.0,caste,Neutral
+tt1848771,Aarakshan,2011.0,caste,Challenging
+tt1877691,Love Breakups Zindagi,2011.0,caste,Neutral
+tt1954598,Ladies vs. Ricky Bahl,2011.0,caste,Neutral
+tt2063745,Kya Dilli Kya Lahore,2014.0,caste,Challenging
+tt2073070,Saheb Biwi Aur Gangster,2011.0,caste,Challenging
+tt2094854,Inkaar,2013.0,caste,Neutral
+tt2106537,Matru ki Bijlee ka Mandola,2013.0,caste,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,caste,Neutral
+tt2140465,Tanu Weds Manu Returns,2015.0,caste,Neutral
+tt2158633,Married 2 America,2012.0,caste,Neutral
+tt2171454,Zila Ghaziabad,2013.0,caste,Neutral
+tt2188811,Luv U Soniyo,2012.0,caste,Neutral
+tt2188893,Staying Alive,2012.0,caste,Neutral
+tt2191641,Chaar Din Ki Chandni,2012.0,caste,Neutral
+tt2196638,Gulabi Gang,2012.0,caste,Challenging
+tt2246595,Blood Money,2012.0,caste,Neutral
+tt2255934,Aiyyaa,2012.0,caste,Neutral
+tt2292625,Chakravyuh,2012.0,caste,Neutral
+tt2321492,Krishna Aur Kans,2012.0,caste,Reinforcing
+tt2341766,Nautanki Saala!,2013.0,caste,Neutral
+tt2359810,Raanjhanaa,2013.0,caste,Neutral
+tt2429640,Murder 3,2013.0,caste,Neutral
+tt2429930,Khwaabb,2014.0,caste,Neutral
+tt2461132,Happy New Year,2014.0,caste,Neutral
+tt2551378,Bullett Raja,2013.0,caste,Neutral
+tt2615584,Phata Poster Nikhla Hero,2013.0,caste,Neutral
+tt2622130,Jayantabhai Ki Luv Story,2013.0,caste,Neutral
+tt2963974,M Cream,2014.0,caste,Neutral
+tt2976176,Lakshmi,2014.0,caste,Challenging
+tt2979920,Bombay Velvet,2015.0,caste,Neutral
+tt3001638,Mary Kom,2014.0,caste,Neutral
+tt3021244,Chaarfutiya Chhokare,2014.0,caste,Neutral
+tt3142688,Finding Fanny,2014.0,caste,Neutral
+tt3302962,Shaadi Ke Side Effects,2014.0,caste,Neutral
+tt3322420,Queen,2013.0,caste,Neutral
+tt3334348,Heartless,2014.0,caste,Neutral
+tt3531604,Gang of Ghosts,2014.0,caste,Neutral
+tt3565354,Karar: The Deal,2014.0,caste,Neutral
+tt3636776,Samrat & Co.,2014.0,caste,Neutral
+tt3640942,Koyelaanchal,2014.0,caste,Neutral
+tt3679000,Any Body Can Dance 2,2015.0,caste,Neutral
+tt3796006,ROAR: Tigers of the Sundarbans,2014.0,caste,Neutral
+tt3854246,Bazaar E Husn,2014.0,caste,Neutral
+tt3863552,Bajrangi Bhaijaan,2015.0,caste,Neutral
+tt3948240,Second Hand Husband,2015.0,caste,Neutral
+tt4354740,Dharam Sankat Mein,2015.0,caste,Neutral
+tt4358344,Rough Book,2016.0,caste,Neutral
+tt4467262,Katti Batti,2015.0,caste,Neutral
+tt4635372,Masaan,2015.0,caste,Neutral
+tt4654760,Sabki Bajegi Band,2015.0,caste,Neutral
+tt4659548,Rebellious Flower,2016.0,caste,Neutral
+tt4857886,Do Lafzon Ki Kahani,2016.0,caste,Neutral
+tt4979110,Daas Dev,2018.0,caste,Neutral
+tt5052972,Yaara Silly Silly,2015.0,caste,Neutral
+tt5325684,Hate Story IV,2018.0,caste,Neutral
+tt5472374,Meri Pyaari Bindu,2017.0,caste,Neutral
+tt5474042,Half Girlfriend,2017.0,caste,Neutral
+tt5542802,Raabta,2017.0,caste,Neutral
+tt5638474,Wajah Tum Ho,2016.0,caste,Neutral
+tt5909308,Days of Tafree,2016.0,caste,Neutral
+tt5946128,Dear Zindagi,2016.0,caste,Neutral
+tt6264938,Kesari,2019.0,caste,Neutral
+tt6299040,The Ghazi Attack,2017.0,caste,Neutral
+tt6334874,Coffee with D,2017.0,caste,Neutral
+tt6395306,Union Leader,2017.0,caste,Neutral
+tt6537508,Behen Hogi Teri,2017.0,caste,Neutral
+tt7549484,Firangi,2017.0,caste,Neutral
+tt7743400,Jhalki,2019.0,caste,Neutral
+tt7777196,Thackeray,2019.0,caste,Neutral
+tt8458202,Pihu,2018.0,caste,Neutral
+tt8983180,Made in China,2019.0,caste,Neutral
+tt9239772,Setters,2019.0,caste,Neutral
+tt9248940,Dream Girl,2019.0,caste,Neutral
