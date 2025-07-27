@@ -42,6 +42,7 @@ All files maintain a consistent directory structure for ease of navigation and r
 
 ---
 
+```
 ## Repository Structure
 bollywood-movie-analysis/
 │
@@ -64,7 +65,7 @@ bollywood-movie-analysis/
 ├── sentiment_data.csv # Main thematic/sentiment-coded data
 ├── supplementary_ideas.md # Additional ideas, limitations, and notes
 ├── README.md # This file
-
+```
 
 ---
 
