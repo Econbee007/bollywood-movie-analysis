@@ -107,7 +107,8 @@ cd bollywood-movie-analysis
 
 ### 2. Setup Python Environment
 python -m venv venv
-source venv/Scripts/activate  # On Windows
+### On Windows
+source venv/Scripts/activate  
 ### Or on Mac/Linux: source venv/bin/activate
 
 pip install -r requirements.txt
@@ -120,35 +121,36 @@ Place the files as data/.
 ### 4. Sample 100 Movies
 ```bash
 python scripts/sampled_movies.py
-
-Output: data/sampled/movies_sampled.csv
 ```
+Output: data/sampled/movies_sampled.csv
+
 ### 5. Collect Subtitles, Descriptions, and Posters
 ```bash
 python src/subtitles.py
 python src/description.py
 python src/poster.py
-
+```
 Output: data/subtitles/subtitles_all.csv
         data/descriptions/descriptions_all.csv
         data/posters/posters_all.csv
 
 For subtitles, descriptions and posters the scripts uses OpenSubtitles API, OMDb API, and TMDb API respectively. Before running these scripts, make sure you generate and configure your API keys in a `.env` file in `src/.env`.
-```
+
 
 ### 6. Perform Thematic Coding using LLM
 ```bash
 python src/thematic_coding.py 
-
+```
 Output: data/thematic_coding.csv
 
 Now to clean this data use
 ```bash 
 python src/thematic_coding_clean.py
-
-Output: data/thematic_coding_clean.csv
-This is the final output for thematic coding.
 ```
+Output: data/thematic_coding_clean.csv
+
+This is the final output for thematic coding.
+
 ### Themes:
 1. Hindu–Muslim relations
 2. Gender relations
@@ -160,10 +162,10 @@ This is the final output for thematic coding.
 
 ### Additional Thematic Measure: Violence Representation
 
-Now I have proposed a simple sentiment measure in proposed_sentiment.py
+Now I have proposed a simple sentiment measure in `proposed_sentiment.py`
 The theme here is violence in movies. To complement the core themes, we introduce a new variable: violence_representation, which classifies movie content as "High", "Low", or "Unclear" based on the frequency of violence-related keywords (e.g., kill, gun, riot, bomb) in subtitles and descriptions. This heuristic captures the presence and intensity of violent themes in a reproducible way. While simplistic, it provides a scalable proxy for thematic violence, useful for studying genre, political narratives, or changes over time.
 
-Output: data/violence_measure
+Output: `data/violence_measure`
 
 ### 7. Visualize Trends using R
 Run the visualisation.R in your local machine after installing all the requirement_r.txt, you will get the outputs in .png format in data/
