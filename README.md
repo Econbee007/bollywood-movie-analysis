@@ -41,7 +41,7 @@ All files maintain a consistent directory structure for ease of navigation and r
 - **Reproducibility**: All R scripts required to recreate these analyses from the CSVs are provided.
 
 ---
-
+```
 ## Repository Structure
 bollywood-movie-analysis/
 │
@@ -96,7 +96,7 @@ bollywood-movie-analysis/
 
 ---
 
-## 🚀 How to Run This Project Locally
+  ## How to Run This Project Locally
 
 ### 1. Clone the Repository
 
@@ -104,13 +104,15 @@ bollywood-movie-analysis/
 git clone https://github.com/Econbee007/bollywood-movie-analysis.git
 cd bollywood-movie-analysis
 
+```
 
 ### 2. Setup Python Environment
 python -m venv venv
 source venv/Scripts/activate  # On Windows
-# Or on Mac/Linux: source venv/bin/activate
+### Or on Mac/Linux: source venv/bin/activate
 
 pip install -r requirements.txt
+
 
 ### 3. Download Full Dataset from Kaggle
 Visit: https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database
@@ -121,7 +123,7 @@ Place the files as data/.
 python scripts/sampled_movies.py
 
 Output: data/sampled/movies_sampled.csv
-
+```
 ### 5. Collect Subtitles, Descriptions, and Posters
 ```bash
 python src/subtitles.py
@@ -133,7 +135,7 @@ Output: data/subtitles/subtitles_all.csv
         data/posters/posters_all.csv
 
 For subtitles, descriptions and posters the scripts uses OpenSubtitles API, OMDb API, and TMDb API respectively. Before running these scripts, make sure you generate and configure your API keys in a `.env` file in `src/.env`.
-
+```
 
 ### 6. Perform Thematic Coding using LLM
 ```bash
@@ -147,15 +149,15 @@ python src/thematic_coding_clean.py
 
 Output: data/thematic_coding_clean.csv
 This is the final output for thematic coding.
-
-Themes:
+```
+### Themes:
 1. Hindu–Muslim relations
 2. Gender relations
 3. Nationalism
-Sentiment attributes:
-Exclusionary ↔ Inclusive
-Positive ↔ Negative
-Progressive ↔ Conservative
+### Sentiment attributes:
+1. Exclusionary ↔ Inclusive
+2. Positive ↔ Negative
+3. Progressive ↔ Conservative
 
 ### Additional Thematic Measure: Violence Representation
 
