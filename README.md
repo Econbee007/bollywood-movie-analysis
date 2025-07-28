@@ -32,7 +32,6 @@ All files maintain a consistent directory structure for ease of navigation and r
     - *Nationalism*
 - **Sentiment Classification**: LLMs (e.g., Google Gemini API) are used to not only detect the presence of these themes, but also their sentiment and nuance:
     - Assigned classifications: *Exclusionary vs. Secular (Inclusive)*, *Positive or Negative*, *Progressive or Conservative*.
-- 
 ### 4. Analytical and Visualization Outputs
 
 - **Visualization (R/GGPlot)**: Thematic codes and sentiment labels are visualized in R using ggplot2.
