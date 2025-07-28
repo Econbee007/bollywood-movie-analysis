@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Bollywood Movie Analysis Project</title>
+            <style>
+  body {
+    font-family: sans-serif;
+    line-height: 1.4;
+    margin: 20px;
+  }
+
+  h2, h3, h4 {
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+
+  p, ul, ol, pre {
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+
+  ul, ol {
+    padding-left: 20px;
+  }
+
+  pre {
+    background: #f4f4f4;
+    padding: 8px;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+
+  code {
+    background: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="bollywood-movie-analysis-project">Bollywood Movie Analysis Project</h1>
+<h2 id="project-overview">Project Overview</h2>
+<p>The objective of this project is to curate and analyze a <strong>dataset of Indian movies (post-2010 releases)</strong> in order to study how themes such as Hindu–Muslim relations, gender relations, and nationalism are depicted over time, using reproducible and transparent data science best practices.</p>
+<hr>
+<h2 id="pipeline-breakdown">Pipeline Breakdown</h2>
+<h3 id="1-dataset-download--sampling">1. Dataset Download &amp; Sampling</h3>
+<ul>
+<li><strong>Source</strong>: The Indian Movie Database from Kaggle (<a href="https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database">https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database</a>).</li>
+<li><strong>Sampling</strong>: Selected a random sample of 100 movies released after 2010, preserving all available attributes for each.
+<ul>
+<li><strong>Reproducibility</strong>: Sampling is handled by a script located in the <code>scripts/</code> folder, which allows others to reproduce or modify the sampling process using the same random seed or parameters.</li>
+<li><strong>Data Storage</strong>: The sampled movies are saved as a CSV within the <code>data/</code> directory.</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-movie-materials-collection">2. Movie Materials Collection</h3>
+<p>For each film in the sample, the following are collected and organized:</p>
+<ul>
+<li><strong>English subtitles</strong> (<code>data/subtitles/</code>): Obtained from OpenSubtitles via API.</li>
+<li><strong>Description/Synopsis</strong> (<code>data/descriptions/</code>): Fetched from OMDb using API queries to ensure rich summaries.</li>
+<li><strong>Movie Posters</strong> (<code>data/posters/</code>): Downloaded via TMDb API.</li>
+</ul>
+<p>All files maintain a consistent directory structure for ease of navigation and reproducibility.</p>
+<h3 id="3-descriptive-metadata--thematic-coding">3. Descriptive Metadata &amp; Thematic Coding</h3>
+<ul>
+<li><strong>Manual &amp; Automated Coding</strong>: Both human and LLM (Large Language Model)-based analyses were conducted on subtitle and description text to identify and categorize:
+<ul>
+<li><em>Hindu–Muslim relations</em></li>
+<li><em>Gender relations</em></li>
+<li><em>Nationalism</em></li>
+</ul>
+</li>
+<li><strong>Sentiment Classification</strong>: LLMs (e.g., Google Gemini API) are used to not only detect the presence of these themes, but also their sentiment and nuance:
+<ul>
+<li>Assigned classifications: <em>Exclusionary vs. Secular (Inclusive)</em>, <em>Positive or Negative</em>, <em>Progressive or Conservative</em>.</li>
+</ul>
+</li>
+<li></li>
+</ul>
+<h3 id="4-analytical-and-visualization-outputs">4. Analytical and Visualization Outputs</h3>
+<ul>
+<li><strong>Visualization (R/GGPlot)</strong>: Thematic codes and sentiment labels are visualized in R using ggplot2.
+<ul>
+<li>Main plot: Annual trends (from 2010 onward) in the frequency and sentiment of each coded theme.</li>
+<li>Additional plots illustrate further nuances and comparisons, all available in the <code>data/</code> directory.</li>
+</ul>
+</li>
+<li><strong>Reproducibility</strong>: All R scripts required to recreate these analyses from the CSVs are provided.</li>
+</ul>
+<hr>
+<h2 id="repository-structure">Repository Structure</h2>
+<p>bollywood-movie-analysis/<br>
+│<br>
+├── data/<br>
+│ ├── descriptions<br>
+│ │ └── descriptions_all.csv<br>
+│ ├── metadata/<br>
+│ │ └── metadata_extended.csv<br>
+│ ├── posters/<br>
+│ │ └── posters_all.csv<br>
+│ ├── sampled/<br>
+│ │ └── movies_sampled.csv<br>
+│ ├── subtitles/<br>
+│ │ └── subtitles_all.csv<br>
+│ ├── bollywood_2010-2019.csv<br>
+│ ├── bollywood_meta_2010-2019.csv<br>
+│ ├── bollywood_ratings_2010-2019.csv<br>
+│ ├── bollywood_text_2010-2019.csv<br>
+│ ├── bollywood_coding_clean.csv<br>
+│ ├── bollywood_coding.csv<br>
+│ ├── theme_frequency.png<br>
+│ ├── theme_sentiment_breakdown.png<br>
+│ ├── theme_sentiment_overtime.png<br>
+│ └── violence_measure.csv<br>
+│<br>
+├── scripts/<br>
+│ ├── <a href="http://description.py">description.py</a><br>
+│ ├── <a href="http://metadata.py">metadata.py</a><br>
+│ ├── <a href="http://poster.py">poster.py</a><br>
+│ ├── proposed_sentiment.py<br>
+│ ├── sampled_movies.py<br>
+│ ├── <a href="http://subtitles.py">subtitles.py</a><br>
+│ ├── thematic_clean.py<br>
+│ ├── thematic_coding.py<br>
+│ └── visualisation.R<br>
+│<br>
+├── supplementary_ideas.md<br>
+├── requirements.txt # Python dependencies<br>
+├── requiremnet_r.txt # R dependencies<br>
+├── .gitignore<br>
+├── .gitattributes<br>
+├── .Rprofile<br>
+├── LICENSE<br>
+├── renv.lock<br>
+├── renv/ # R virtual environment<br>
+├── venv/ # Python virtual environment<br>
+├── <a href="http://README.html">README.md</a></p>
+<pre><code>
+
+<hr>
+<h2>🚀 How to Run This Project Locally</h2>
+<h3>1. Clone the Repository</h3>
+<pre><code>git clone https://github.com/Econbee007/bollywood-movie-analysis.git
+cd bollywood-movie-analysis
+</code></pre>
+<h3>2. Setup Python Environment</h3>
+<pre><code>python -m venv venv
+source venv/Scripts/activate  # On Windows
+# Or on Mac/Linux: source venv/bin/activate
+pip install -r requirements.txt
+</code></pre>
+<h3>3. Download Full Dataset from Kaggle</h3>
+<p>Visit: <a href="https://www.kaggle.com/datasets/pncnmnp/the-indian-movie-database">Indian Movie Database on Kaggle</a><br>
+Place the files inside the <code>data/</code> folder.</p>
+<h3>4. Sample 100 Movies</h3>
+<pre><code>python scripts/sampled_movies.py
+</code></pre>
+<p>Output: <code>data/sampled/movies_sampled.csv</code></p>
+<h3>5. Collect Subtitles, Descriptions, and Posters</h3>
+<pre><code>python src/subtitles.py
+python src/description.py
+python src/poster.py
+</code></pre>
+<p>Output:
+<ul>
+  <li><code>data/subtitles/subtitles_all.csv</code></li>
+  <li><code>data/descriptions/descriptions_all.csv</code></li>
+  <li><code>data/posters/posters_all.csv</code></li>
+</ul>
+</p>
+<p>
+These scripts use the OpenSubtitles API, OMDb API, and TMDb API respectively.<br>
+Before running them, ensure that your API keys are saved in a <code>.env</code> file inside the <code>src/</code> folder.
+</p>
+<h3>6. Perform Thematic Coding using LLM</h3>
+<pre><code>python src/thematic_coding.py
+</code></pre>
+<p>Output: <code>data/thematic_coding.csv</code></p>
+<p>Now to clean the data:</p>
+<pre><code>python src/thematic_coding_clean.py
+</code></pre>
+<p>Output: <code>data/thematic_coding_clean.csv</code><br>This is the final output for thematic coding.</p>
+<p><strong>Themes:</strong>
+<ul>
+  <li>Hindu–Muslim relations</li>
+  <li>Gender relations</li>
+  <li>Nationalism</li>
+</ul>
+<strong>Sentiment Attributes:</strong>
+<ul>
+  <li>Exclusionary ↔ Inclusive</li>
+  <li>Positive ↔ Negative</li>
+  <li>Progressive ↔ Conservative</li>
+</ul>
+</p>
+<h3>Additional Thematic Measure: Violence Representation</h3>
+<p>
+We introduce a new variable: <code>violence_representation</code>, which classifies movie content as "High", "Low", or "Unclear" based on the frequency of violence-related keywords (e.g., kill, gun, riot, bomb) in subtitles and descriptions.
+</p>
+<p>
+This provides a scalable proxy for thematic violence, useful for analyzing genre, political narratives, or historical change.
+</p>
+<pre><code>python src/proposed_sentiment.py
+</code></pre>
+<p>Output: <code>data/violence_measure</code></p>
+<h3>7. Visualize Trends using R</h3>
+<p>Run <code>visualisation.R</code> after installing all R dependencies from <code>requiremnet_r.txt</code>. You’ll get the following plots in the <code>data/</code> folder:</p>
+<h4>Theme Frequency Over Time</h4>
+<img src="data/theme_frequency.png" alt="Theme Frequency Over Time" width="600">
+<h4>Theme Sentiment Breakdown</h4>
+<img src="data/theme_sentiment_breakdown.png" alt="Theme Sentiment Breakdown" width="600">
+<h4>Theme Sentiment Over Time</h4>
+<img src="data/theme_sentiment_over_time.png" alt="Theme Sentiment Over Time" width="600">
+<hr>
+<h2>🔍 Key Design Principles</h2>
+<ul>
+  <li><strong>Transparency &amp; Reproducibility</strong>: Every step, from data acquisition to thematic analysis, is scripted or documented.</li>
+  <li><strong>AI Integration</strong>: LLMs are used for scalable and auditable theme classification with documented logic.</li>
+  <li><strong>Extensibility</strong>: Modular file and folder structure allows addition of new themes, years, or metrics.</li>
+</ul>
+<hr>
+<h2>Supplementary Ideas</h2>
+
+<p>
+To make this dataset more insightful and meaningful, here are a few additional attributes that could be added. Each of these could help us better understand not just what stories Bollywood films tell, but also how they’re received and who’s involved in telling them.
+</p>
+
+<hr>
+
+<h3>1. <strong>User Reviews and Audience Sentiment</strong></h3>
+<p>
+Sometimes, what a movie tries to say and how people feel about it can be very different. Adding audience reviews and running sentiment analysis on them could help us compare public reaction to the themes we’ve already coded.
+</p>
+<ul>
+  <li><strong>Where to get it</strong>: IMDb reviews (via scraping or using IMDbPY), or even platforms like Rotten Tomatoes or Letterboxd.</li>
+  <li><strong>How to use it</strong>: We could extract text reviews, run them through basic sentiment analysis models like VADER or TextBlob, and then create an average sentiment score for each film.</li>
+</ul>
+
+<hr>
+
+<h3>2. <strong>Cast Diversity (Gender, Religion, Nationality)</strong></h3>
+<p>
+Representation matters. Looking at who stars in these movies — across gender, religion, and nationality — can tell us a lot about inclusivity in the industry. This could also help us see if diverse casts are linked to different kinds of stories or sentiments.
+</p>
+<ul>
+  <li><strong>Where to get it</strong>: IMDb (using IMDbPY) for cast lists, and Wikipedia/Wikidata to gather demographic info about actors.</li>
+  <li><strong>How to use it</strong>: For each film, we could check the top-billed cast and record whether the group is diverse along different axes, creating simple indicators or diversity scores.</li>
+</ul>
+
+<hr>
+
+<h3>3. <strong>Awards and Critical Recognition</strong></h3>
+<p>
+Awards and nominations signal what kinds of films the industry values. Including this information can help us explore whether certain themes or sentiments are more likely to be rewarded.
+</p>
+<ul>
+  <li><strong>Where to get it</strong>: Wikipedia pages for each film often list awards, or we could scrape IMDb’s awards section. For more structured data, award websites like Filmfare or National Film Awards may be useful.</li>
+  <li><strong>How to use it</strong>: Add columns like <code>won_award</code>, <code>num_awards</code>, or even break it down into <code>won_national_award</code>, <code>won_international_award</code>, etc.</li>
+</ul>
+
+<hr>
+
+<p>
+Each of these additions would make the dataset richer and allow for more nuanced questions — like how representation links to recognition, or how public sentiment aligns with the messages a film is trying to convey.
+</p>
+
+<hr>
+<h2>📄 License</h2>
+<p>This project is released under the <strong>MIT License</strong>.</p>
+<hr>
+<p>This repository is intended as a transparent and extensible resource for researchers, collaborators, and reviewers studying AI-powered media analysis in Bollywood cinema.</p>
+</code></pre>
+
+            
+            
+        </body>
+        </html>
